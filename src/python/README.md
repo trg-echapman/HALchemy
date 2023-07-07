@@ -4,6 +4,25 @@ HAL-based Hypermedia API clients for humans.
 
 > This project has lofty goals, and is in its very early stages.  Please use with caution and beware of breaking changes until at least v0.7.0
 
+## Build steps
+1. Get repository from:  
+	`git clone https://github.com/trg-echapman/HALchemy.git`
+
+2. Change into python folder:  
+	`cd HALchemy\src\python`
+
+3. Create virtual environment:  
+  `python -m venv ./.venv`
+
+4. Activate virtual environment:  
+  `.\.env\Scripts\activate.ps1`
+
+5. Install build package:  
+  `pip install build`
+
+6. Build distribution:  
+  `python -m build`
+
 ## Methods
 * def **url_from_rel**(resource, rel, parameters={}, template={}):
 * def **post_to_url**(self, url, data):
