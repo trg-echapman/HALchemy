@@ -69,14 +69,14 @@ except:
 * optimistic concurrency
 
 ## Build References
-1. **PEP 518 -- Specifying Minimum Build System Requirements for Python Projects**: This is the official Python Enhancement Proposal (PEP) that introduced `pyproject.toml`. It explains why `pyproject.toml` was introduced and what problems it solves.
+1. **setuptools - Build System Interface**: This documentation page explains how setuptools uses the `pyproject.toml` file and gives an example of how to specify setuptools as the build system in `pyproject.toml`.
+   https://setuptools.readthedocs.io/en/latest/build_meta.html
+
+2. **PEP 518 -- Specifying Minimum Build System Requirements for Python Projects**: This is the official Python Enhancement Proposal (PEP) that introduced `pyproject.toml`. It explains why `pyproject.toml` was introduced and what problems it solves.
    https://peps.python.org/pep-0518/
 
-2. **PEP 517 -- A build-system independent format for source trees**: This PEP proposed a standard way for Python projects to specify their build requirements and processes, enabling new tools like Poetry and Flit to emerge. It works hand-in-hand with PEP 518.
+3. **PEP 517 -- A build-system independent format for source trees**: This PEP proposed a standard way for Python projects to specify their build requirements and processes, enabling new tools like Poetry and Flit to emerge. It works hand-in-hand with PEP 518.
    https://peps.python.org/pep-0517/
-
-3. **setuptools - Build System Interface**: This documentation page explains how setuptools uses the `pyproject.toml` file and gives an example of how to specify setuptools as the build system in `pyproject.toml`.
-   https://setuptools.readthedocs.io/en/latest/build_meta.html
 
 4. **How to Publish an Open-Source Python Package to PyPI**: This is a step-by-step guide that includes details on creating a `pyproject.toml` file for a setuptools-based project.
    https://realpython.com/pypi-publish-python-package/
