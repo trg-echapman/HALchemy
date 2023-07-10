@@ -23,5 +23,5 @@ if ($InstallPackage) {
 }
 else {
     "Deactivating local virtual environment"
-    deactivate .\.gitignore
+    deactivate 
 }
