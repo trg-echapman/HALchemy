@@ -11,17 +11,9 @@ HAL-based Hypermedia API clients for humans.
 2. Change into python folder:  
 	`cd HALchemy\src\python`
 
-3. Create virtual environment:  
-  `python -m venv ./.venv`
-
-4. Activate virtual environment:  
-  `.\.env\Scripts\activate.ps1`
-
-5. Install build package:  
-  `pip install build`
-
-6. Build distribution:  
-  `python -m build`
+3. Execute build script  
+  `.\build.ps1 [-InstallPackage]`  
+    - -InstallPackage (optional): Use this parameter to indicate whether to install the Python package into the local virtual environment after it is built. If not included then the local virtual environment will be deactivated once the package is built.
 
 ## Methods
 * def **url_from_rel**(resource, rel, parameters={}, template={}):

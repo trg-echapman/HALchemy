@@ -3,7 +3,6 @@ import os
 
 current_directory = current_dir = os.path.dirname(os.path.abspath(__file__))
 
-
 # Load the template file
 with open(f"{current_directory}\\setup.cfg.tmpl", 'r') as template_file:
     template_content = template_file.read()
